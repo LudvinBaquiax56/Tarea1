@@ -5,7 +5,7 @@
  */
 package com.mycompany.decodificadoradn;
 
-import DecodificadorADN.Decodificador;
+import GUI.VentanaDecodificador;
 
 /**
  *
@@ -17,8 +17,7 @@ public class Inicio {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Decodificador decodificador = new Decodificador();
-        decodificador.recibirDatos();
+        VentanaDecodificador ventana = new VentanaDecodificador();
     }
 
 }
