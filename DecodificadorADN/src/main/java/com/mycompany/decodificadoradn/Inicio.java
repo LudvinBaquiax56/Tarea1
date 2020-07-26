@@ -5,6 +5,8 @@
  */
 package com.mycompany.decodificadoradn;
 
+import DecodificadorADN.Decodificador;
+
 /**
  *
  * @author baquiax
@@ -15,8 +17,8 @@ public class Inicio {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        
+        Decodificador decodificador = new Decodificador();
+        decodificador.recibirDatos();
     }
-    
+
 }
